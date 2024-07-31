@@ -1,0 +1,69 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.url-form {
+  margin: 20px;
+}
+
+.url-form input {
+  padding: 10px;
+  width: 300px;
+}
+
+.url-form button {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.shortened-url {
+  margin-top: 10px;
+}
+
+.url-list {
+  margin: 20px;
+}
+
+.url-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.url-list li {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.875rem;
+}
